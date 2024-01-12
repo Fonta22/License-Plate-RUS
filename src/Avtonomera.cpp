@@ -19,7 +19,7 @@ struct Plates {
 };
 
 void openFile(ifstream& fin, string& filename) {
-    cout << "File name: ";
+    cout << "Data file: ";
     cin >> filename;
     fin.open(filename.c_str());
 
