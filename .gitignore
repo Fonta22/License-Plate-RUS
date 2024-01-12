@@ -1,4 +1,7 @@
-/src/data_treatment/
+# folders
+/src/data_process/
+/img/svg/
+
+# binaries
 /bin/
 *.exe
-/img/svg/
