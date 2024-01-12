@@ -1,4 +1,4 @@
-# Avtonomera Checker 🚨
+# Avtonomera 🚨
 > All data was taken from [Wikipedia](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Russia).
 
 This program identifies the region of a **Russian license plate** by it's **registration region code**.
@@ -10,7 +10,7 @@ The program performs a *dichotomous search* (fastest searching algorithm) throug
 
 ![Registration Codes Map](./img/png/registration_codes_map.png)
 
-## Demo
+## Usage Example
 Let's try the program on a real car, like for example this beautiful **Mercedes-Benz S63 AMG**.
 
 ![S63 AMG](./img/demo/S63_AMG.jpg)
@@ -26,7 +26,7 @@ As we can see, the registration region code is `44`. Let's try it on the program
 
 After entering the file name of the Wikipedia data (stored @ `./data/avtonomera.txt`), the program found the region of the code we were looking for.
 
-The code 44 ended to be from **Kostroma** (Кострома).
+The code `44` ended to be from **Kostroma** (Кострома).
 
 ![Kostroma](./img/demo/Kostroma.jpg)
 
